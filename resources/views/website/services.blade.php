@@ -26,7 +26,7 @@
 
                 <div class="breadcrumb">
 
-                    <a href="index.html">
+                    <a href="{{ route('home') }}">
                         Home
                     </a>
 
