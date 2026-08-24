@@ -1,0 +1,340 @@
+/* HERO */
+.hero {
+    position: relative;
+    min-height: 620px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: linear-gradient(135deg, #f8fcff 0%, #fff 48%, #fff4e6 100%)
+}
+
+.hero:before {
+    content: "";
+    position: absolute;
+    width: 650px;
+    height: 650px;
+    right: -230px;
+    top: -130px;
+    border: 1px solid rgba(244, 119, 24, .18);
+    border-radius: 50%;
+    animation: orbit 16s linear infinite
+}
+
+.hero:after {
+    content: "";
+    position: absolute;
+    width: 470px;
+    height: 470px;
+    right: -120px;
+    top: -40px;
+    border: 1px dashed rgba(6, 59, 104, .16);
+    border-radius: 50%;
+    animation: orbitReverse 11s linear infinite
+}
+
+@keyframes orbit {
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+@keyframes orbitReverse {
+    to {
+        transform: rotate(-360deg)
+    }
+}
+
+.hero-grid {
+    position: relative;
+    z-index: 2;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 65px
+}
+
+.eyebrow {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    color: var(--orange);
+    font-size: 11px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    text-transform: uppercase
+}
+
+.eyebrow:before,
+.eyebrow:after {
+    content: "";
+    width: 28px;
+    height: 2px;
+    background: var(--orange)
+}
+
+.hero h1 {
+    font: 800 clamp(44px, 5.5vw, 70px)/1.05 Montserrat;
+    color: var(--blue);
+    margin: 18px 0
+}
+
+.hero h1 span {
+    display: block;
+    color: var(--orange)
+}
+
+.hero-description {
+    max-width: 600px;
+    color: var(--muted);
+    font-size: 15px;
+    line-height: 1.85
+}
+
+.hero-actions {
+    display: flex;
+    gap: 13px;
+    flex-wrap: wrap;
+    margin-top: 29px
+}
+
+.btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 9px;
+    padding: 14px 22px;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 700;
+    transition: var(--transition)
+}
+
+.btn-primary {
+    color: #fff;
+    background: linear-gradient(135deg, var(--orange), var(--orange-light));
+    box-shadow: 0 12px 28px rgba(244, 119, 24, .25)
+}
+
+.btn-secondary {
+    color: #fff;
+    background: var(--blue);
+    box-shadow: 0 12px 28px rgba(6, 59, 104, .18)
+}
+
+.btn:hover {
+    transform: translateY(-4px)
+}
+
+.hero-meta {
+    display: flex;
+    gap: 25px;
+    margin-top: 30px;
+    flex-wrap: wrap
+}
+
+.meta {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--blue)
+}
+
+.meta i {
+    width: 31px;
+    height: 31px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    background: #fff0df;
+    color: var(--orange)
+}
+
+/* HERO VISUAL */
+.hero-visual {
+    height: 470px;
+    position: relative;
+    display: grid;
+    place-items: center
+}
+
+.hero-photo {
+    width: 450px;
+    height: 370px;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: 0 30px 80px rgba(3, 48, 80, .18);
+    transform: rotate(2deg);
+    border: 7px solid #fff
+}
+
+.hero-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: 1s
+}
+
+.hero-photo:hover img {
+    transform: scale(1.08)
+}
+
+.hero-glow {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    background: rgba(255, 181, 45, .17);
+    filter: blur(20px);
+    animation: pulse 3s infinite
+}
+
+.hero-card {
+    position: absolute;
+    background: #fff;
+    border: 1px solid var(--border);
+    padding: 15px 18px;
+    border-radius: 17px;
+    box-shadow: var(--shadow);
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    animation: float 4s ease-in-out infinite
+}
+
+.hero-card i {
+    width: 40px;
+    height: 40px;
+    display: grid;
+    place-items: center;
+    border-radius: 12px;
+    background: #fff0df;
+    color: var(--orange)
+}
+
+.hero-card strong {
+    display: block;
+    color: var(--blue);
+    font: 800 14px Montserrat
+}
+
+.hero-card small {
+    display: block;
+    color: var(--muted);
+    font-size: 10px;
+    margin-top: 3px
+}
+
+.hero-card.one {
+    left: -5px;
+    bottom: 65px
+}
+
+.hero-card.two {
+    right: -10px;
+    top: 60px;
+    animation-delay: -2s
+}
+
+@keyframes float {
+
+    0%,
+    100% {
+        transform: translateY(0)
+    }
+
+    50% {
+        transform: translateY(-11px)
+    }
+}
+
+@keyframes pulse {
+    50% {
+        transform: scale(1.1);
+        opacity: .75
+    }
+}
+
+
+
+
+/* RESPONSIVE */
+@media(max-width:1000px) {
+    
+
+    .hero-grid,
+    .featured {
+        gap: 40px
+    }
+
+}
+
+@media(max-width:800px) {
+   
+
+    .hero {
+        padding: 80px 0
+    }
+
+    .hero-grid,
+    .featured {
+        grid-template-columns: 1fr
+    }
+
+    .hero-visual {
+        order: -1;
+        height: 430px
+    }
+
+    .hero-photo {
+        width: min(450px, 90%);
+        height: 350px
+    }
+
+    
+}
+
+@media(max-width:560px) {
+ 
+
+    .hero h1 {
+        font-size: 42px
+    }
+
+    .hero-actions {
+        flex-direction: column
+    }
+
+    .hero-actions .btn {
+        width: 100%
+    }
+
+    .hero-meta {
+        gap: 12px
+    }
+
+    .hero-visual {
+        height: 360px
+    }
+
+    .hero-photo {
+        height: 290px
+    }
+
+    .hero-card {
+        padding: 10px 12px
+    }
+
+    .hero-card.one {
+        left: 0;
+        bottom: 30px
+    }
+
+    .hero-card.two {
+        right: 0;
+        top: 25px
+    }
+
+  
+}
