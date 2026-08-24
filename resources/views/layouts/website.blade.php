@@ -6,9 +6,19 @@
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="description" content="Arunachala Solar Energy - Powering the Future Sustainably">
+    <meta name="description"
+        content="Arunachala Solar Energy provides reliable residential, commercial, industrial, agricultural and rooftop solar solutions, including solar installation, energy storage, consultation, maintenance and support.">
 
-    <title>Arunachala Solar Energy | Powering the Future Sustainably</title>
+    <meta name="keywords"
+        content="Arunachala Solar Energy, solar energy, solar panels, residential solar, commercial solar, industrial solar, agricultural solar, rooftop solar, solar installation, solar energy storage, solar consultation, solar maintenance">
+
+    <meta name="author" content="Arunachala Solar Energy">
+
+    <meta name="robots" content="index, follow">
+
+    <title>
+        Arunachala Solar Energy | Solar Solutions & Installation
+    </title>
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -27,7 +37,7 @@
     <!-- <link rel="stylesheet" href="{{ asset('website/css/projects.css') }}"> -->
     <!-- <link rel="stylesheet" href="{{ asset('website/css/whychoose.css') }}"> -->
     <link rel="stylesheet" href="{{ asset('website/css/contact.css') }}">
-        <link rel="shortcut icon" type="image/x-icon" href="{{asset('website')}}/images/solarlogo.png">
+    <link rel="shortcut icon" type="image/x-icon" href="{{asset('website')}}/images/solarlogo.png">
 
 
 
@@ -296,7 +306,7 @@
             © <span id="year"></span>
             Arunachala Solar Energy.
             All Rights Reserved. Developed By <a href="https://www.thiven.com/" target="_blank"
-                        style="text-decoration: none;color: #fbfbfb;">ThiVen</a>
+                style="text-decoration: none;color: #fbfbfb;">ThiVen</a>
 
         </div>
 
