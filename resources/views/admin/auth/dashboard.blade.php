@@ -5,11 +5,11 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 
 
-    <div style="background:linear-gradient(135deg,#0d6efd,#4f8dfd);padding:35px;border-radius:18px;display:flex;justify-content:space-between;align-items:center;color:#fff;box-shadow:0 10px 30px rgba(13,110,253,.25);margin-top: 100px;
+    <div style="background:linear-gradient(135deg,#071b3d,#071b3d);padding:35px;border-radius:18px;display:flex;justify-content:space-between;align-items:center;color:#fff;box-shadow:0 10px 30px rgba(13,110,253,.25);margin-top: 100px;
                             margin-left: 270px; margin-bottom:-150px; margin-right: 20px;">
 
         <div>
-            <h2 style="margin:0;font-size:32px;font-weight:700;">
+            <h2 style="margin:0;font-size:32px;font-weight:700; color: #fff;">
                 👋 Welcome, Admin
             </h2>
 
@@ -78,7 +78,7 @@
 
         /* Left Border */
         .dashboard-card.primary {
-            border-left: 6px solid #0d6efd;
+            border-left: 6px solid #071b3d;
         }
 
         .dashboard-card.success {
@@ -122,7 +122,7 @@
         }
 
         .primary .card-icon {
-            background: #0d6efd;
+            background: #071b3d;
         }
 
         .success .card-icon {

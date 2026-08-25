@@ -3,8 +3,8 @@
 @section('content')
 
     <!-- =========================================================
-         SOLAR PROJECTS PAGE
-    ========================================================= -->
+             SOLAR PROJECTS PAGE
+        ========================================================= -->
 
     <section class="solar-hero">
 
@@ -70,8 +70,8 @@
 
 
         <!-- =====================================================
-             HERO STATS
-        ====================================================== -->
+                 HERO STATS
+            ====================================================== -->
 
         <div class="solar-stat-bar">
 
@@ -146,8 +146,8 @@
 
 
     <!-- =========================================================
-         PROJECTS SECTION
-    ========================================================= -->
+             PROJECTS SECTION
+        ========================================================= -->
 
     <section class="solar-projects-section">
 
@@ -186,8 +186,8 @@
 
 
             <!-- =====================================================
-                 FILTER
-            ====================================================== -->
+                     FILTER
+                ====================================================== -->
 
             <div class="solar-filter-bar solar-reveal" role="tablist" aria-label="Project categories">
 
@@ -214,15 +214,15 @@
 
 
             <!-- =====================================================
-                 PROJECT GRID
-            ====================================================== -->
+                     PROJECT GRID
+                ====================================================== -->
 
             <div class="solar-project-grid" id="solarProjectGrid">
 
 
                 <!-- =================================================
-                     PROJECT 01
-                ================================================= -->
+                         PROJECT 01
+                    ================================================= -->
 
                 <article class="solar-project-card solar-reveal solar-show" data-category="residential">
 
@@ -273,8 +273,8 @@
 
 
                 <!-- =================================================
-                     PROJECT 02
-                ================================================= -->
+                         PROJECT 02
+                    ================================================= -->
 
                 <article class="solar-project-card solar-reveal solar-show" data-category="commercial">
 
@@ -325,8 +325,8 @@
 
 
                 <!-- =================================================
-                     PROJECT 03
-                ================================================= -->
+                         PROJECT 03
+                    ================================================= -->
 
                 <article class="solar-project-card solar-reveal solar-show" data-category="industrial">
 
@@ -377,8 +377,8 @@
 
 
                 <!-- =================================================
-                     PROJECT 04
-                ================================================= -->
+                         PROJECT 04
+                    ================================================= -->
 
                 <article class="solar-project-card solar-reveal solar-show" data-category="residential">
 
@@ -429,8 +429,8 @@
 
 
                 <!-- =================================================
-                     PROJECT 05
-                ================================================= -->
+                         PROJECT 05
+                    ================================================= -->
 
                 <article class="solar-project-card solar-reveal solar-show" data-category="commercial">
 
@@ -481,15 +481,15 @@
 
 
                 <!-- =================================================
-                     PROJECT 06
-                ================================================= -->
+                         PROJECT 06
+                    ================================================= -->
 
                 <article class="solar-project-card solar-reveal solar-show" data-category="industrial">
 
                     <div class="solar-project-image">
 
-                        <img src="{{asset('website')}}/images/insolar.png"
-                            alt="Large scale solar installation" loading="lazy">
+                        <img src="{{asset('website')}}/images/insolar.png" alt="Large scale solar installation"
+                            loading="lazy">
 
                         <div class="solar-project-number">
                             06
@@ -536,42 +536,42 @@
 
 
             <!-- =====================================================
-                 FEATURED PROJECT
-            ====================================================== -->
+                     FEATURED PROJECT
+                ====================================================== -->
 
             <!-- <div class="solar-featured-project solar-reveal">
 
-                <div class="solar-featured-copy">
+                    <div class="solar-featured-copy">
 
-                    <small>
-                        Arunachala Solar
-                    </small>
+                        <small>
+                            Arunachala Solar
+                        </small>
 
-                    <h3>
-                        Your Roof Can Generate Power.
-                    </h3>
+                        <h3>
+                            Your Roof Can Generate Power.
+                        </h3>
 
-                    <p>
-                        Whether you are planning a residential,
-                        commercial or industrial solar project,
-                        Arunachala Solar can help create a solution
-                        around your energy requirements.
-                    </p>
+                        <p>
+                            Whether you are planning a residential,
+                            commercial or industrial solar project,
+                            Arunachala Solar can help create a solution
+                            around your energy requirements.
+                        </p>
 
-                    <a href="{{ route('contact') }}" class="solar-featured-button">
-                        Start Your Solar Project
+                        <a href="{{ route('contact') }}" class="solar-featured-button">
+                            Start Your Solar Project
 
-                        <span>
-                            →
-                        </span>
-                    </a>
+                            <span>
+                                →
+                            </span>
+                        </a>
 
-                </div>
+                    </div>
 
 
-                <div class="solar-panel"></div>
+                    <div class="solar-panel"></div>
 
-            </div> -->
+                </div> -->
 
 
         </div>
@@ -580,8 +580,8 @@
 
 
     <!-- =========================================================
-         CTA
-    ========================================================= -->
+             CTA
+        ========================================================= -->
 
     <section class="solar-cta-section">
 
@@ -612,8 +612,8 @@
 
 
     <!-- =========================================================
-         JAVASCRIPT
-    ========================================================= -->
+             JAVASCRIPT
+        ========================================================= -->
 
     <script>
 
@@ -1157,9 +1157,9 @@
 
                                 card.style.transform =
                                     `perspective(1100px)
-                                 rotateX(${rotateX}deg)
-                                 rotateY(${rotateY}deg)
-                                 translateY(-8px)`;
+                                     rotateX(${rotateX}deg)
+                                     rotateY(${rotateY}deg)
+                                     translateY(-8px)`;
 
                             }
                         );
@@ -1221,9 +1221,9 @@
 
                                 button.style.transform =
                                     `translate(
-                                    ${x * 0.08}px,
-                                    ${y * 0.08}px
-                                )`;
+                                        ${x * 0.08}px,
+                                        ${y * 0.08}px
+                                    )`;
 
                             }
                         );
@@ -1355,9 +1355,9 @@
 
     <style>
         /* =========================================================
-       ARUNACHALA SOLAR - PROJECTS PAGE
-       UNIQUE SOLAR CLASS NAMES
-    ========================================================= */
+           ARUNACHALA SOLAR - PROJECTS PAGE
+           UNIQUE SOLAR CLASS NAMES
+        ========================================================= */
 
         :root {
             --blue: #063b68;
@@ -1390,8 +1390,8 @@
 
 
         /* =========================================================
-       GLOBAL
-    ========================================================= */
+           GLOBAL
+        ========================================================= */
 
         .solar-hero,
         .solar-projects-section,
@@ -1420,8 +1420,8 @@
 
 
         /* =========================================================
-       HERO
-    ========================================================= */
+           HERO
+        ========================================================= */
 
         .solar-hero {
             position: relative;
@@ -1542,8 +1542,8 @@
 
 
         /* =========================================================
-       HERO CONTENT
-    ========================================================= */
+           HERO CONTENT
+        ========================================================= */
 
         .solar-hero .container {
             position: relative;
@@ -1690,8 +1690,8 @@
 
 
         /* =========================================================
-       HERO STATS
-    ========================================================= */
+           HERO STATS
+        ========================================================= */
 
         .solar-stat-bar {
             position: absolute;
@@ -1775,8 +1775,8 @@
 
 
         /* =========================================================
-       PROJECT SECTION
-    ========================================================= */
+           PROJECT SECTION
+        ========================================================= */
 
         .solar-projects-section {
             padding: 110px 0;
@@ -1869,8 +1869,8 @@
 
 
         /* =========================================================
-       FILTER
-    ========================================================= */
+           FILTER
+        ========================================================= */
 
         .solar-filter-bar {
             display: flex;
@@ -1941,8 +1941,8 @@
 
 
         /* =========================================================
-       PROJECT GRID
-    ========================================================= */
+           PROJECT GRID
+        ========================================================= */
 
         .solar-project-grid {
             display: grid;
@@ -1957,8 +1957,8 @@
 
 
         /* =========================================================
-       PROJECT CARD
-    ========================================================= */
+           PROJECT CARD
+        ========================================================= */
 
         .solar-project-card {
             position: relative;
@@ -2021,8 +2021,8 @@
 
 
         /* =========================================================
-       PROJECT IMAGE
-    ========================================================= */
+           PROJECT IMAGE
+        ========================================================= */
 
         .solar-project-image {
             position: relative;
@@ -2154,8 +2154,8 @@
 
 
         /* =========================================================
-       PROJECT CONTENT
-    ========================================================= */
+           PROJECT CONTENT
+        ========================================================= */
 
         .solar-project-content {
             padding: 28px;
@@ -2271,8 +2271,8 @@
 
 
         /* =========================================================
-       FEATURED PROJECT
-    ========================================================= */
+           FEATURED PROJECT
+        ========================================================= */
 
         .solar-featured-project {
             position: relative;
@@ -2402,8 +2402,8 @@
 
 
         /* =========================================================
-       SOLAR PANEL
-    ========================================================= */
+           SOLAR PANEL
+        ========================================================= */
 
         .solar-panel {
             position: relative;
@@ -2476,8 +2476,8 @@
 
 
         /* =========================================================
-       CTA
-    ========================================================= */
+           CTA
+        ========================================================= */
 
         .solar-cta-section {
             padding: 100px 0;
@@ -2623,8 +2623,8 @@
 
 
         /* =========================================================
-       REVEAL ANIMATION
-    ========================================================= */
+           REVEAL ANIMATION
+        ========================================================= */
 
         .solar-reveal {
             opacity: 0;
@@ -2646,110 +2646,446 @@
 
 
         /* =========================================================
-       RESPONSIVE - TABLET
+       RESPONSIVE SYSTEM
+       Desktop / Laptop / Tablet / Mobile
     ========================================================= */
 
-        @media (max-width: 1000px) {
+
+        /* =========================================================
+       LARGE DESKTOP
+       1400px and above
+    ========================================================= */
+
+        @media (min-width: 1400px) {
+
+            .solar-hero {
+                min-height: 720px;
+            }
+
+            .solar-hero-content {
+                max-width: 800px;
+                padding: 140px 0 180px;
+            }
+
+            .solar-hero h1 {
+                font-size: 82px;
+            }
+
+            .solar-hero-description {
+                font-size: 19px;
+                max-width: 680px;
+            }
+
+            .solar-hero-orb {
+                width: 580px;
+                height: 580px;
+                right: -120px;
+            }
+
+            .solar-projects-section {
+                padding: 120px 0;
+            }
+
+            .solar-project-grid {
+                grid-template-columns: repeat(3, minmax(0, 1fr));
+                gap: 32px;
+            }
+
+            .solar-project-image {
+                height: 300px;
+            }
+
+            .solar-featured-project {
+                min-height: 400px;
+            }
+
+            .solar-featured-copy {
+                padding: 75px;
+            }
+
+        }
+
+
+        /* =========================================================
+       LAPTOP
+       1200px - 1399px
+    ========================================================= */
+
+        @media (min-width: 1200px) and (max-width: 1399px) {
+
+            .solar-hero {
+                min-height: 680px;
+            }
+
+            .solar-hero-content {
+                max-width: 700px;
+                padding: 120px 0 165px;
+            }
+
+            .solar-hero h1 {
+                font-size: 72px;
+            }
+
+            .solar-hero-description {
+                font-size: 17px;
+                max-width: 620px;
+            }
+
+            .solar-hero-orb {
+                width: 480px;
+                height: 480px;
+                right: -140px;
+            }
+
+            .solar-projects-section {
+                padding: 100px 0;
+            }
+
+            .solar-project-grid {
+                grid-template-columns: repeat(3, minmax(0, 1fr));
+                gap: 25px;
+            }
+
+            .solar-project-image {
+                height: 270px;
+            }
+
+            .solar-project-content {
+                padding: 25px;
+            }
+
+            .solar-featured-copy {
+                padding: 55px;
+            }
+
+        }
+
+
+        /* =========================================================
+       SMALL LAPTOP / LARGE TABLET
+       1001px - 1199px
+    ========================================================= */
+
+        @media (min-width: 1001px) and (max-width: 1199px) {
 
             .solar-hero {
                 min-height: 650px;
             }
 
             .solar-hero-content {
-                padding-top: 100px;
+                max-width: 620px;
+                padding: 105px 0 155px;
+            }
+
+            .solar-hero h1 {
+                font-size: 62px;
+            }
+
+            .solar-hero-description {
+                font-size: 16px;
+                max-width: 560px;
+            }
+
+            .solar-hero-orb {
+                width: 400px;
+                height: 400px;
+                right: -130px;
+                opacity: .7;
             }
 
             .solar-stats {
-                grid-template-columns:
-                    repeat(2, 1fr);
+                grid-template-columns: repeat(4, 1fr);
+            }
+
+            .solar-stat {
+                padding: 22px 18px;
+            }
+
+            .solar-counter {
+                font-size: 28px;
+            }
+
+            .solar-stat span {
+                font-size: 11px;
+            }
+
+            .solar-projects-section {
+                padding: 90px 0;
+            }
+
+            .solar-section-heading h2 {
+                font-size: 48px;
+            }
+
+            .solar-project-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 25px;
+            }
+
+            .solar-project-image {
+                height: 270px;
+            }
+
+            .solar-featured-project {
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .solar-featured-copy {
+                padding: 45px;
+            }
+
+            .solar-featured-copy h3 {
+                font-size: 40px;
+            }
+
+            .solar-panel {
+                min-height: 360px;
+            }
+
+        }
+
+
+        /* =========================================================
+       TABLET
+       769px - 1000px
+    ========================================================= */
+
+        @media (min-width: 769px) and (max-width: 1000px) {
+
+            .solar-hero {
+                min-height: 620px;
+            }
+
+            .solar-hero-content {
+                max-width: 600px;
+                padding: 90px 0 145px;
+            }
+
+            .solar-breadcrumb {
+                font-size: 13px;
+                margin-bottom: 22px;
+            }
+
+            .solar-hero-label {
+                font-size: 12px;
+            }
+
+            .solar-hero h1 {
+                font-size: 56px;
+                letter-spacing: -2px;
+            }
+
+            .solar-hero-description {
+                font-size: 15px;
+                line-height: 1.7;
+                max-width: 520px;
+            }
+
+            .solar-hero-orb {
+                width: 350px;
+                height: 350px;
+                right: -130px;
+                opacity: .45;
+            }
+
+
+            /* -------------------------
+           STATS
+        ------------------------- */
+
+            .solar-stats {
+                grid-template-columns: repeat(2, 1fr);
+                min-height: auto;
+            }
+
+            .solar-stat {
+                min-height: 105px;
+                padding: 20px;
             }
 
             .solar-stat:nth-child(2)::after {
                 display: none;
             }
 
-            .solar-project-grid {
-                grid-template-columns:
-                    repeat(2, minmax(0, 1fr));
+            .solar-stat:nth-child(3)::after {
+                display: block;
+            }
+
+            .solar-counter {
+                font-size: 27px;
+            }
+
+
+            /* -------------------------
+           PROJECT SECTION
+        ------------------------- */
+
+            .solar-projects-section {
+                padding: 80px 0;
             }
 
             .solar-section-heading {
-                align-items: flex-start;
-
                 flex-direction: column;
-
-                gap: 20px;
+                align-items: flex-start;
+                gap: 15px;
+                margin-bottom: 35px;
             }
+
+            .solar-section-heading h2 {
+                font-size: 44px;
+            }
+
+            .solar-section-heading>p {
+                max-width: 650px;
+                font-size: 14px;
+            }
+
+
+            /* -------------------------
+           FILTER
+        ------------------------- */
+
+            .solar-filter-bar {
+                width: 100%;
+                justify-content: center;
+                border-radius: 18px;
+            }
+
+            .solar-filter-button {
+                padding: 11px 17px;
+                font-size: 13px;
+            }
+
+
+            /* -------------------------
+           PROJECT GRID
+        ------------------------- */
+
+            .solar-project-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 22px;
+            }
+
+            .solar-project-image {
+                height: 245px;
+            }
+
+            .solar-project-content {
+                padding: 24px;
+            }
+
+            .solar-project-content h3 {
+                font-size: 20px;
+            }
+
+            .solar-project-content p {
+                font-size: 13px;
+            }
+
+
+            /* -------------------------
+           FEATURED PROJECT
+        ------------------------- */
 
             .solar-featured-project {
                 grid-template-columns: 1fr;
-            }
-
-            .solar-panel {
-                min-height: 280px;
+                margin-top: 65px;
             }
 
             .solar-featured-copy {
-                padding: 50px;
+                padding: 45px;
             }
+
+            .solar-featured-copy h3 {
+                font-size: 40px;
+            }
+
+            .solar-panel {
+                min-height: 300px;
+            }
+
+
+            /* -------------------------
+           CTA
+        ------------------------- */
+
+            .solar-cta-section {
+                padding: 80px 0;
+            }
+
+            .solar-cta-box {
+                padding: 60px 40px;
+            }
+
         }
 
 
         /* =========================================================
-       RESPONSIVE - MOBILE
+       LARGE MOBILE
+       551px - 768px
     ========================================================= */
 
-        @media (max-width: 700px) {
+        @media (min-width: 551px) and (max-width: 768px) {
 
             .solar-hero {
                 min-height: auto;
             }
 
             .solar-hero-content {
-                padding:
-                    100px 0 150px;
+                padding: 90px 0 50px;
+                max-width: 100%;
+            }
+
+            .solar-breadcrumb {
+                font-size: 12px;
+                margin-bottom: 20px;
+            }
+
+            .solar-hero-label {
+                font-size: 11px;
+                padding: 7px 13px;
             }
 
             .solar-hero h1 {
                 font-size: 48px;
-
-                letter-spacing: -2px;
+                letter-spacing: -1.5px;
             }
 
             .solar-hero-description {
-                font-size: 16px;
+                font-size: 15px;
+                max-width: 600px;
             }
 
             .solar-hero-orb {
-                width: 300px;
-                height: 300px;
-
-                right: -150px;
+                width: 280px;
+                height: 280px;
+                right: -140px;
+                opacity: .22;
             }
 
 
-            /* Stats */
+            /* STATS */
 
             .solar-stat-bar {
                 position: relative;
             }
 
             .solar-stats {
-                grid-template-columns:
-                    repeat(2, 1fr);
+                grid-template-columns: repeat(2, 1fr);
+                min-height: auto;
             }
 
             .solar-stat {
-                padding:
-                    20px 15px;
+                min-height: 100px;
+                padding: 18px 12px;
             }
 
             .solar-stat:nth-child(2)::after {
-                display: block;
+                display: none;
             }
 
             .solar-counter {
-                font-size: 26px;
+                font-size: 25px;
             }
 
             .solar-stat span {
@@ -2757,112 +3093,451 @@
             }
 
 
-            /* Projects */
+            /* PROJECTS */
 
             .solar-projects-section {
-                padding: 75px 0;
+                padding: 70px 0;
+            }
+
+            .solar-section-heading {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 15px;
+                margin-bottom: 30px;
             }
 
             .solar-section-heading h2 {
-                font-size: 40px;
+                font-size: 38px;
+            }
 
-                letter-spacing: -1.5px;
+            .solar-section-heading>p {
+                font-size: 14px;
             }
 
 
-            /* Filter */
+            /* FILTER */
 
             .solar-filter-bar {
                 width: 100%;
-
+                display: flex;
                 justify-content: center;
-
-                border-radius: 18px;
+                border-radius: 16px;
+                padding: 6px;
             }
 
             .solar-filter-button {
-                padding:
-                    10px 14px;
+                padding: 9px 12px;
+                font-size: 11px;
+            }
 
+
+            /* GRID */
+
+            .solar-project-grid {
+                grid-template-columns: repeat(2, minmax(0, 1fr));
+                gap: 18px;
+            }
+
+            .solar-project-image {
+                height: 220px;
+            }
+
+            .solar-project-content {
+                padding: 20px;
+            }
+
+            .solar-project-content h3 {
+                font-size: 18px;
+            }
+
+            .solar-project-content p {
                 font-size: 12px;
             }
 
 
-            /* Grid */
-
-            .solar-project-grid {
-                grid-template-columns: 1fr;
-
-                gap: 22px;
-            }
-
-            .solar-project-image {
-                height: 250px;
-            }
-
-
-            /* Featured */
+            /* FEATURED */
 
             .solar-featured-project {
-                margin-top: 60px;
-
-                border-radius: 24px;
+                grid-template-columns: 1fr;
+                margin-top: 50px;
+                border-radius: 22px;
             }
 
             .solar-featured-copy {
-                padding:
-                    40px 25px;
+                padding: 35px 25px;
             }
 
             .solar-featured-copy h3 {
                 font-size: 34px;
             }
 
-            .solar-panel {
-                min-height: 240px;
+            .solar-featured-copy p {
+                font-size: 14px;
             }
 
-            .solar-panel::before {
-                width: 300px;
-                height: 190px;
+            .solar-panel {
+                min-height: 230px;
             }
 
 
             /* CTA */
 
             .solar-cta-section {
-                padding: 70px 0;
+                padding: 65px 0;
             }
 
             .solar-cta-box {
-                padding:
-                    50px 25px;
-
-                border-radius: 24px;
+                padding: 45px 25px;
+                border-radius: 22px;
             }
 
             .solar-cta-box h2 {
-                font-size: 36px;
+                font-size: 34px;
             }
+
+            .solar-cta-box p {
+                font-size: 14px;
+            }
+
         }
 
 
         /* =========================================================
-       RESPONSIVE - SMALL MOBILE
+       MOBILE
+       0px - 550px
     ========================================================= */
 
-        @media (max-width: 420px) {
+        @media (max-width: 550px) {
 
-            .solar-hero h1 {
-                font-size: 42px;
+            .solar-hero {
+                min-height: auto;
+                display: block;
             }
 
+            .solar-hero-content {
+                width: 100%;
+                padding: 75px 0 40px;
+            }
+
+            .solar-breadcrumb {
+                gap: 7px;
+                margin-bottom: 18px;
+                font-size: 11px;
+            }
+
+            .solar-hero-label {
+                gap: 7px;
+                padding: 7px 12px;
+                margin-bottom: 18px;
+                font-size: 10px;
+                letter-spacing: 1px;
+            }
+
+            .solar-hero h1 {
+                max-width: 100%;
+                margin-bottom: 20px;
+                font-size: 40px;
+                line-height: 1.08;
+                letter-spacing: -1px;
+            }
+
+            .solar-hero-description {
+                max-width: 100%;
+                font-size: 14px;
+                line-height: 1.7;
+            }
+
+            .solar-hero-orb {
+                width: 220px;
+                height: 220px;
+                right: -120px;
+                top: 25%;
+                opacity: .18;
+            }
+
+            .solar-hero-grid {
+                background-size: 35px 35px;
+                opacity: .3;
+            }
+
+            .solar-hero-dot {
+                width: 5px;
+                height: 5px;
+            }
+
+
+            /* -------------------------
+           STATS
+        ------------------------- */
+
+            .solar-stat-bar {
+                position: relative;
+            }
+
+            .solar-stats {
+                grid-template-columns: repeat(2, 1fr);
+                min-height: auto;
+            }
+
+            .solar-stat {
+                min-height: 95px;
+                padding: 18px 8px;
+                text-align: center;
+            }
+
+            .solar-stat:not(:last-child)::after {
+                height: 50px;
+                top: 25px;
+            }
+
+            .solar-stat:nth-child(2)::after {
+                display: none;
+            }
+
+            .solar-stat:nth-child(3)::after {
+                display: block;
+            }
+
+            .solar-counter {
+                margin-bottom: 6px;
+                font-size: 23px;
+            }
+
+            .solar-stat span {
+                font-size: 9px;
+                letter-spacing: .5px;
+            }
+
+
+            /* -------------------------
+           PROJECT SECTION
+        ------------------------- */
+
+            .solar-projects-section {
+                padding: 60px 0;
+            }
+
+            .solar-section-heading {
+                display: block;
+                margin-bottom: 28px;
+            }
+
+            .solar-section-kicker {
+                margin-bottom: 12px;
+                font-size: 11px;
+            }
+
+            .solar-section-heading h2 {
+                font-size: 34px;
+                line-height: 1.12;
+                letter-spacing: -1px;
+            }
+
+            .solar-section-heading>p {
+                margin-top: 14px;
+                font-size: 13px;
+                line-height: 1.7;
+            }
+
+
+            /* -------------------------
+           FILTER
+        ------------------------- */
+
+            .solar-filter-bar {
+                width: 100%;
+                display: grid;
+                grid-template-columns: repeat(2, 1fr);
+                gap: 5px;
+                margin-bottom: 25px;
+                padding: 6px;
+                border-radius: 16px;
+            }
+
+            .solar-filter-button {
+                width: 100%;
+                padding: 10px 6px;
+                border-radius: 10px;
+                font-size: 11px;
+                text-align: center;
+            }
+
+
+            /* -------------------------
+           PROJECT GRID
+        ------------------------- */
+
+            .solar-project-grid {
+                grid-template-columns: 1fr;
+                gap: 20px;
+            }
+
+            .solar-project-card {
+                width: 100%;
+                border-radius: 18px;
+            }
+
+            .solar-project-image {
+                height: 235px;
+            }
+
+            .solar-project-number {
+                top: 14px;
+                left: 14px;
+                width: 38px;
+                height: 38px;
+                border-radius: 10px;
+                font-size: 11px;
+            }
+
+            .solar-project-type {
+                top: 15px;
+                right: 14px;
+                padding: 6px 10px;
+                font-size: 9px;
+            }
+
+            .solar-project-capacity {
+                left: 15px;
+                bottom: 15px;
+                font-size: 13px;
+            }
+
+            .solar-project-content {
+                padding: 21px;
+            }
+
+            .solar-project-location {
+                margin-bottom: 8px;
+                font-size: 10px;
+            }
+
+            .solar-project-content h3 {
+                margin-bottom: 10px;
+                font-size: 20px;
+            }
+
+            .solar-project-content p {
+                margin-bottom: 18px;
+                font-size: 13px;
+                line-height: 1.7;
+            }
+
+            .solar-project-link {
+                font-size: 12px;
+            }
+
+
+            /* -------------------------
+           FEATURED PROJECT
+        ------------------------- */
+
+            .solar-featured-project {
+                grid-template-columns: 1fr;
+                margin-top: 50px;
+                border-radius: 20px;
+            }
+
+            .solar-featured-copy {
+                padding: 35px 22px;
+            }
+
+            .solar-featured-copy small {
+                margin-bottom: 12px;
+                font-size: 10px;
+            }
+
+            .solar-featured-copy h3 {
+                font-size: 30px;
+                line-height: 1.12;
+            }
+
+            .solar-featured-copy p {
+                font-size: 13px;
+                line-height: 1.7;
+            }
+
+            .solar-featured-button {
+                width: 100%;
+                justify-content: center;
+                padding: 13px 18px;
+                font-size: 12px;
+            }
+
+            .solar-panel {
+                min-height: 220px;
+            }
+
+            .solar-panel::before {
+                width: 270px;
+                height: 175px;
+            }
+
+            .solar-panel::after {
+                width: 250px;
+                height: 250px;
+            }
+
+
+            /* -------------------------
+           CTA
+        ------------------------- */
+
+            .solar-cta-section {
+                padding: 55px 0;
+            }
+
+            .solar-cta-box {
+                padding: 40px 20px;
+                border-radius: 20px;
+            }
+
+            .solar-cta-box h2 {
+                font-size: 30px;
+                line-height: 1.15;
+            }
+
+            .solar-cta-box p {
+                font-size: 13px;
+                line-height: 1.7;
+                margin-bottom: 24px;
+            }
+
+            .solar-cta-button {
+                width: 100%;
+                justify-content: center;
+                padding: 14px 20px;
+                font-size: 12px;
+            }
+
+        }
+
+
+        /* =========================================================
+       EXTRA SMALL MOBILE
+       0px - 380px
+    ========================================================= */
+
+        @media (max-width: 380px) {
+
+            .solar-hero-content {
+                padding-top: 65px;
+            }
+
+            .solar-hero h1 {
+                font-size: 34px;
+            }
+
+            .solar-hero-description {
+                font-size: 13px;
+            }
 
             .solar-stats {
                 grid-template-columns: 1fr;
             }
 
             .solar-stat {
+                min-height: 85px;
                 border-bottom:
                     1px solid rgba(255, 255, 255, .10);
             }
@@ -2871,28 +3546,80 @@
                 display: none !important;
             }
 
+            .solar-section-heading h2 {
+                font-size: 30px;
+            }
 
             .solar-filter-bar {
-                display: grid;
-
-                grid-template-columns:
-                    repeat(2, 1fr);
-
-                border-radius: 18px;
+                grid-template-columns: 1fr 1fr;
             }
 
             .solar-filter-button {
-                width: 100%;
+                font-size: 10px;
+                padding: 9px 4px;
             }
 
+            .solar-project-image {
+                height: 210px;
+            }
 
             .solar-project-content {
-                padding: 23px;
+                padding: 18px;
             }
 
             .solar-project-content h3 {
-                font-size: 20px;
+                font-size: 18px;
             }
+
+            .solar-featured-copy h3 {
+                font-size: 27px;
+            }
+
+            .solar-cta-box h2 {
+                font-size: 27px;
+            }
+
+        }
+
+
+        /* =========================================================
+       TOUCH DEVICES
+       Remove hover-heavy movement on mobile/tablet
+    ========================================================= */
+
+        @media (hover: none) and (pointer: coarse) {
+
+            .solar-project-card:hover {
+                transform: none;
+            }
+
+            .solar-project-card:hover .solar-project-image img {
+                transform: none;
+            }
+
+            .solar-project-card:hover .solar-project-content h3 {
+                color: var(--blue-dark);
+            }
+
+            .solar-project-link:hover {
+                color: var(--blue);
+            }
+
+            .solar-project-link:hover span {
+                background: var(--blue);
+                transform: none;
+            }
+
+            .solar-featured-button:hover {
+                box-shadow:
+                    0 12px 30px rgba(244, 119, 24, .22);
+            }
+
+            .solar-cta-button:hover {
+                box-shadow:
+                    0 15px 35px rgba(244, 119, 24, .25);
+            }
+
         }
 
 
@@ -2906,15 +3633,9 @@
             .solar-projects-section *,
             .solar-cta-section * {
                 scroll-behavior: auto !important;
-
-                animation-duration:
-                    .01ms !important;
-
-                animation-iteration-count:
-                    1 !important;
-
-                transition-duration:
-                    .01ms !important;
+                animation-duration: .01ms !important;
+                animation-iteration-count: 1 !important;
+                transition-duration: .01ms !important;
             }
 
             .solar-project-card {

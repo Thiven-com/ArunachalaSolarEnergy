@@ -2858,7 +2858,7 @@
             }
 
             .experience-badge {
-                right: 10px;
+                 display: none !important;
             }
 
             .intro-points {

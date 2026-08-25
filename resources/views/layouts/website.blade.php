@@ -761,6 +761,645 @@
 
     </script>
 
+
+
+
+    <style>
+        /* =========================================================
+   FOOTER RESPONSIVE
+   DESKTOP / LAPTOP / TABLET / MOBILE
+========================================================= */
+
+
+        /* =========================================================
+   DESKTOP
+   1200px+
+========================================================= */
+
+        @media (min-width: 1200px) {
+
+            footer {
+                padding: 70px 0 0;
+            }
+
+            .footer-grid {
+                display: grid;
+
+                grid-template-columns:
+                    1.5fr 0.8fr 1.3fr;
+
+                gap: 70px;
+
+                align-items: start;
+            }
+
+            .footer-about {
+                max-width: 420px;
+            }
+
+            .footer-brand {
+                display: flex;
+
+                align-items: center;
+
+                gap: 14px;
+            }
+
+            .footer-brand img {
+                width: 85px;
+                height: 70px;
+
+                object-fit: contain;
+            }
+
+            .footer-brand strong {
+                display: block;
+
+                color: var(--white);
+
+                font-size: 22px;
+
+                font-weight: 800;
+
+                line-height: 1.1;
+            }
+
+            .footer-brand span {
+                display: block;
+
+                margin-top: 5px;
+
+                color: var(--orange-light);
+
+                font-size: 11px;
+
+                font-weight: 700;
+
+                letter-spacing: 2px;
+            }
+
+            .footer-about>p {
+                margin-top: 22px;
+
+                max-width: 390px;
+
+                color:
+                    rgba(255, 255, 255, .68);
+
+                font-size: 14px;
+
+                line-height: 1.8;
+            }
+
+            .footer-links h3,
+            .footer-contact h3 {
+                margin: 0 0 22px;
+
+                color: var(--white);
+
+                font-size: 18px;
+
+                font-weight: 750;
+            }
+
+            .footer-links {
+                display: flex;
+
+                flex-direction: column;
+
+                gap: 11px;
+            }
+
+            .footer-links a {
+                color:
+                    rgba(255, 255, 255, .68);
+
+                font-size: 14px;
+
+                transition: var(--transition);
+            }
+
+            .footer-links a:hover {
+                color: var(--orange-light);
+
+                transform: translateX(4px);
+            }
+
+            .footer-contact p {
+                display: flex;
+
+                align-items: flex-start;
+
+                gap: 12px;
+
+                margin: 0 0 17px;
+
+                color:
+                    rgba(255, 255, 255, .68);
+
+                font-size: 14px;
+
+                line-height: 1.7;
+            }
+
+            .footer-contact p i {
+                flex: 0 0 18px;
+
+                margin-top: 4px;
+
+                color: var(--orange);
+            }
+
+            .footer-contact p span {
+                flex: 1;
+            }
+
+            .copyright {
+                margin-top: 60px;
+
+                padding:
+                    20px 0;
+
+                border-top:
+                    1px solid rgba(255, 255, 255, .10);
+
+                text-align: center;
+
+                color:
+                    rgba(255, 255, 255, .55);
+
+                font-size: 13px;
+            }
+
+            .copyright a {
+                color: var(--orange-light) !important;
+            }
+
+        }
+
+
+        /* =========================================================
+   LAPTOP
+   992px - 1199px
+========================================================= */
+
+        @media (min-width: 992px) and (max-width: 1199px) {
+
+            footer {
+                padding: 60px 0 0;
+            }
+
+            .footer-grid {
+                display: grid;
+
+                grid-template-columns:
+                    1.4fr 0.8fr 1.3fr;
+
+                gap: 40px;
+
+                align-items: start;
+            }
+
+            .footer-about {
+                max-width: 380px;
+            }
+
+            .footer-brand {
+                display: flex;
+
+                align-items: center;
+
+                gap: 12px;
+            }
+
+            .footer-brand img {
+                width: 75px;
+                height: 62px;
+
+                object-fit: contain;
+            }
+
+            .footer-brand strong {
+                display: block;
+
+                color: var(--white);
+
+                font-size: 19px;
+            }
+
+            .footer-brand span {
+                display: block;
+
+                margin-top: 4px;
+
+                color: var(--orange-light);
+
+                font-size: 9px;
+
+                letter-spacing: 1.6px;
+            }
+
+            .footer-about>p {
+                margin-top: 18px;
+
+                color:
+                    rgba(255, 255, 255, .68);
+
+                font-size: 13px;
+
+                line-height: 1.7;
+            }
+
+            .footer-links h3,
+            .footer-contact h3 {
+                margin: 0 0 18px;
+
+                color: var(--white);
+
+                font-size: 17px;
+            }
+
+            .footer-links {
+                display: flex;
+
+                flex-direction: column;
+
+                gap: 9px;
+            }
+
+            .footer-links a {
+                color:
+                    rgba(255, 255, 255, .68);
+
+                font-size: 13px;
+
+                transition: var(--transition);
+            }
+
+            .footer-links a:hover {
+                color: var(--orange-light);
+            }
+
+            .footer-contact p {
+                display: flex;
+
+                align-items: flex-start;
+
+                gap: 10px;
+
+                margin: 0 0 14px;
+
+                color:
+                    rgba(255, 255, 255, .68);
+
+                font-size: 13px;
+
+                line-height: 1.6;
+            }
+
+            .footer-contact p i {
+                flex: 0 0 17px;
+
+                margin-top: 3px;
+
+                color: var(--orange);
+            }
+
+            .footer-contact p span {
+                flex: 1;
+            }
+
+            .copyright {
+                margin-top: 50px;
+
+                padding:
+                    18px 0;
+
+                border-top:
+                    1px solid rgba(255, 255, 255, .10);
+
+                text-align: center;
+
+                color:
+                    rgba(255, 255, 255, .55);
+
+                font-size: 12px;
+            }
+
+            .copyright a {
+                color: var(--orange-light) !important;
+            }
+
+        }
+
+
+        /* =========================================================
+   TABLET
+   768px - 991px
+========================================================= */
+
+        @media (min-width: 768px) and (max-width: 991px) {
+
+            footer {
+                padding: 55px 0 0;
+            }
+
+            .footer-grid {
+                display: grid;
+
+                grid-template-columns:
+                    1fr 1fr;
+
+                gap: 40px;
+            }
+
+            .footer-about {
+                grid-column: 1 / -1;
+
+                max-width: 600px;
+            }
+
+            .footer-brand {
+                display: flex;
+
+                align-items: center;
+
+                gap: 12px;
+            }
+
+            .footer-brand img {
+                width: 70px;
+                height: 58px;
+
+                object-fit: contain;
+            }
+
+            .footer-brand strong {
+                display: block;
+
+                color: var(--white);
+
+                font-size: 19px;
+            }
+
+            .footer-brand span {
+                display: block;
+
+                margin-top: 4px;
+
+                color: var(--orange-light);
+
+                font-size: 9px;
+
+                letter-spacing: 1.5px;
+            }
+
+            .footer-about>p {
+                max-width: 600px;
+
+                margin-top: 16px;
+
+                color:
+                    rgba(255, 255, 255, .68);
+
+                font-size: 13px;
+
+                line-height: 1.7;
+            }
+
+            .footer-links h3,
+            .footer-contact h3 {
+                margin: 0 0 18px;
+
+                color: var(--white);
+
+                font-size: 17px;
+            }
+
+            .footer-links {
+                display: flex;
+
+                flex-direction: column;
+
+                gap: 9px;
+            }
+
+            .footer-links a {
+                color:
+                    rgba(255, 255, 255, .68);
+
+                font-size: 13px;
+            }
+
+            .footer-contact p {
+                display: flex;
+
+                align-items: flex-start;
+
+                gap: 10px;
+
+                margin: 0 0 14px;
+
+                color:
+                    rgba(255, 255, 255, .68);
+
+                font-size: 13px;
+
+                line-height: 1.6;
+            }
+
+            .footer-contact p i {
+                flex: 0 0 17px;
+
+                margin-top: 3px;
+
+                color: var(--orange);
+            }
+
+            .footer-contact p span {
+                flex: 1;
+            }
+
+            .copyright {
+                margin-top: 45px;
+
+                padding:
+                    18px 0;
+
+                border-top:
+                    1px solid rgba(255, 255, 255, .10);
+
+                text-align: center;
+
+                color:
+                    rgba(255, 255, 255, .55);
+
+                font-size: 12px;
+
+                line-height: 1.6;
+            }
+
+            .copyright a {
+                color: var(--orange-light) !important;
+            }
+
+        }
+
+
+        /* =========================================================
+   MOBILE
+   767px and below
+========================================================= */
+
+        @media (max-width: 767px) {
+
+            footer {
+                padding: 45px 0 0;
+            }
+
+            .footer-grid {
+                display: grid;
+
+                grid-template-columns: 1fr;
+
+                gap: 30px;
+            }
+
+            .footer-about {
+                width: 100%;
+            }
+
+            .footer-brand {
+                display: flex;
+
+                align-items: center;
+
+                gap: 10px;
+            }
+
+            .footer-brand img {
+                width: 60px;
+                height: 52px;
+
+                object-fit: contain;
+            }
+
+            .footer-brand strong {
+                display: block;
+
+                color: var(--white);
+
+                font-size: 17px;
+            }
+
+            .footer-brand span {
+                display: block;
+
+                margin-top: 3px;
+
+                color: var(--orange-light);
+
+                font-size: 8px;
+
+                letter-spacing: 1.2px;
+            }
+
+            .footer-about>p {
+                margin-top: 15px;
+
+                max-width: 100%;
+
+                color:
+                    rgba(255, 255, 255, .68);
+
+                font-size: 13px;
+
+                line-height: 1.7;
+
+                text-align: left;
+            }
+
+            .footer-links h3,
+            .footer-contact h3 {
+                margin: 0 0 15px;
+
+                color: var(--white);
+
+                font-size: 16px;
+            }
+
+            .footer-links {
+                display: flex;
+
+                flex-direction: column;
+
+                gap: 8px;
+            }
+
+            .footer-links a {
+                color:
+                    rgba(255, 255, 255, .68);
+
+                font-size: 13px;
+
+                padding: 2px 0;
+            }
+
+            .footer-contact p {
+                display: flex;
+
+                align-items: flex-start;
+
+                gap: 10px;
+
+                margin: 0 0 13px;
+
+                color:
+                    rgba(255, 255, 255, .68);
+
+                font-size: 13px;
+
+                line-height: 1.6;
+            }
+
+            .footer-contact p i {
+                flex: 0 0 17px;
+
+                margin-top: 3px;
+
+                color: var(--orange);
+            }
+
+            .footer-contact p span {
+                flex: 1;
+            }
+
+            .copyright {
+                margin-top: 35px;
+
+                padding:
+                    17px 10px;
+
+                border-top:
+                    1px solid rgba(255, 255, 255, .10);
+
+                text-align: center;
+
+                color:
+                    rgba(255, 255, 255, .55);
+
+                font-size: 11px;
+
+                line-height: 1.8;
+            }
+
+            .copyright a {
+                color: var(--orange-light) !important;
+            }
+
+        }
+    </style>
+
 </body>
 
 </html>

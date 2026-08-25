@@ -4,8 +4,8 @@
 
 
     <!-- =========================================================
-             HERO
-        ========================================================= -->
+                 HERO
+            ========================================================= -->
 
     <section class="page-hero">
 
@@ -94,8 +94,8 @@
 
 
     <!-- =========================================================
-             INTRO
-        ========================================================= -->
+                 INTRO
+            ========================================================= -->
 
     <section class="section">
 
@@ -231,8 +231,8 @@
 
 
     <!-- =========================================================
-             SOLUTION CARDS
-        ========================================================= -->
+                 SOLUTION CARDS
+            ========================================================= -->
 
     <section class="section solutions-section">
 
@@ -526,8 +526,8 @@
 
 
     <!-- =========================================================
-             SOLUTION TYPES
-        ========================================================= -->
+                 SOLUTION TYPES
+            ========================================================= -->
 
     <section class="section types-section">
 
@@ -660,8 +660,8 @@
 
 
     <!-- =========================================================
-             ENERGY JOURNEY
-        ========================================================= -->
+                 ENERGY JOURNEY
+            ========================================================= -->
 
     <section class="section journey-section">
 
@@ -828,8 +828,8 @@
 
 
     <!-- =========================================================
-             STATS
-        ========================================================= -->
+                 STATS
+            ========================================================= -->
 
     <section class="stats-section">
 
@@ -906,8 +906,8 @@
 
 
     <!-- =========================================================
-             CTA
-        ========================================================= -->
+                 CTA
+            ========================================================= -->
 
     <section class="cta">
 
@@ -975,8 +975,8 @@
 
     <style>
         /* =========================================================
-       ROOT
-    ========================================================= */
+           ROOT
+        ========================================================= */
 
         :root {
 
@@ -1009,8 +1009,8 @@
 
 
         /* =========================================================
-       RESET
-    ========================================================= */
+           RESET
+        ========================================================= */
 
         * {
             margin: 0;
@@ -1058,12 +1058,12 @@
         }
 
 
-        
+
 
 
         /* =========================================================
-       HERO
-    ========================================================= */
+           HERO
+        ========================================================= */
 
         .page-hero {
 
@@ -1142,8 +1142,8 @@
 
 
         /* =========================================================
-       HERO PARTICLES
-    ========================================================= */
+           HERO PARTICLES
+        ========================================================= */
 
         .particle {
 
@@ -1211,8 +1211,8 @@
 
 
         /* =========================================================
-       HERO CONTENT
-    ========================================================= */
+           HERO CONTENT
+        ========================================================= */
 
         .page-hero-content {
 
@@ -1339,8 +1339,8 @@
 
 
         /* =========================================================
-       HERO SOLAR ORBIT
-    ========================================================= */
+           HERO SOLAR ORBIT
+        ========================================================= */
 
         .hero-orbit {
 
@@ -1502,8 +1502,8 @@
 
 
         /* =========================================================
-       SECTION
-    ========================================================= */
+           SECTION
+        ========================================================= */
 
         .section {
 
@@ -1589,8 +1589,8 @@
 
 
         /* =========================================================
-       SOLUTION INTRO
-    ========================================================= */
+           SOLUTION INTRO
+        ========================================================= */
 
         .solution-intro {
 
@@ -1920,8 +1920,8 @@
 
 
         /* =========================================================
-       SOLUTION CARDS
-    ========================================================= */
+           SOLUTION CARDS
+        ========================================================= */
 
         .solutions-section {
 
@@ -2166,8 +2166,8 @@
 
 
         /* =========================================================
-       SOLUTION TYPES
-    ========================================================= */
+           SOLUTION TYPES
+        ========================================================= */
 
         .types-section {
 
@@ -2333,8 +2333,8 @@
 
 
         /* =========================================================
-       ENERGY JOURNEY
-    ========================================================= */
+           ENERGY JOURNEY
+        ========================================================= */
 
         .journey-section {
 
@@ -2721,8 +2721,8 @@
 
 
         /* =========================================================
-       STATS
-    ========================================================= */
+           STATS
+        ========================================================= */
 
         .stats-section {
 
@@ -2816,8 +2816,8 @@
 
 
         /* =========================================================
-       CTA
-    ========================================================= */
+           CTA
+        ========================================================= */
 
         .cta {
 
@@ -2985,12 +2985,12 @@
         }
 
 
-     
+
 
 
         /* =========================================================
-       WHATSAPP
-    ========================================================= */
+           WHATSAPP
+        ========================================================= */
 
         .whatsapp {
 
@@ -3048,8 +3048,8 @@
 
 
         /* =========================================================
-       SCROLL TOP
-    ========================================================= */
+           SCROLL TOP
+        ========================================================= */
 
         .scroll-top {
 
@@ -3099,8 +3099,8 @@
 
 
         /* =========================================================
-       REVEAL
-    ========================================================= */
+           REVEAL
+        ========================================================= */
 
         .reveal {
 
@@ -3155,36 +3155,396 @@
 
         /* =========================================================
        RESPONSIVE
+       ONLY 4 DEVICES
+       DESKTOP / LAPTOP / TABLET / MOBILE
     ========================================================= */
 
-        @media(max-width:1050px) {
 
-            .menu {
-                gap: 16px;
+        /* =========================================================
+       DESKTOP
+       1200px AND ABOVE
+    ========================================================= */
+
+        @media (min-width: 1200px) {
+
+            .container {
+                width: min(1180px, 92%);
+                margin: auto;
             }
 
-            .menu a {
-                font-size: 12px;
+
+            /* =========================
+           HERO
+        ========================= */
+
+            .page-hero {
+                min-height: 480px;
+            }
+
+            .page-hero-content {
+                max-width: 680px;
             }
 
             .hero-orbit {
-                right: -40px;
-                opacity: .45;
+                right: 9%;
+                width: 360px;
+                height: 360px;
+                opacity: 1;
             }
 
-            .solution-intro {
-                gap: 40px;
+
+            /* =========================
+           SECTION
+        ========================= */
+
+            .section {
+                padding: 100px 0;
             }
+
+            .section-heading {
+                max-width: 720px;
+                margin: 0 auto 55px;
+            }
+
+            .section-heading h2 {
+                font-size: 42px;
+            }
+
+
+            /* =========================
+           SOLUTION INTRO
+        ========================= */
+
+            .solution-intro {
+                display: grid;
+
+                grid-template-columns:
+                    1fr 1fr;
+
+                gap: 70px;
+
+                align-items: center;
+            }
+
+            .visual-box {
+                min-height: 480px;
+            }
+
+            .intro-content h2 {
+                font-size: 40px;
+            }
+
+
+            /* =========================
+           SOLUTION CARDS
+        ========================= */
+
+            .solution-grid {
+                grid-template-columns:
+                    repeat(2, 1fr);
+
+                gap: 25px;
+            }
+
+
+            /* =========================
+           SOLUTION TYPES
+        ========================= */
 
             .types-grid {
                 grid-template-columns:
-                    1fr 1fr;
+                    repeat(4, 1fr);
+
+                gap: 18px;
+            }
+
+
+            /* =========================
+           JOURNEY
+        ========================= */
+
+            .journey {
+                grid-template-columns:
+                    1fr 1.1fr;
+
+                gap: 65px;
+            }
+
+            .journey-visual {
+                min-height: 490px;
+            }
+
+
+            /* =========================
+           STATS
+        ========================= */
+
+            .stats {
+                grid-template-columns:
+                    repeat(4, 1fr);
+            }
+
+
+            /* =========================
+           CTA
+        ========================= */
+
+            .cta-inner {
+                flex-direction: row;
+
+                align-items: center;
+
+                justify-content: space-between;
+            }
+
+
+            /* =========================
+           FOOTER
+        ========================= */
+
+            .footer-grid {
+                grid-template-columns:
+                    1.5fr .8fr 1.3fr;
             }
 
         }
 
 
-        @media(max-width:800px) {
+        /* =========================================================
+       LAPTOP
+       992px - 1199px
+    ========================================================= */
+
+        @media (min-width: 992px) and (max-width: 1199px) {
+
+            .container {
+                width: 92%;
+                margin: auto;
+            }
+
+
+            /* =========================
+           HERO
+        ========================= */
+
+            .page-hero {
+                min-height: 460px;
+            }
+
+            .page-hero-content {
+                max-width: 600px;
+            }
+
+            .page-hero h1 {
+                font-size: 58px;
+            }
+
+            .page-hero p {
+                font-size: 15px;
+            }
+
+            .hero-orbit {
+                right: -10px;
+
+                width: 330px;
+                height: 330px;
+
+                opacity: .75;
+            }
+
+
+            /* =========================
+           SECTION
+        ========================= */
+
+            .section {
+                padding: 85px 0;
+            }
+
+            .section-heading h2 {
+                font-size: 38px;
+            }
+
+
+            /* =========================
+           SOLUTION INTRO
+        ========================= */
+
+            .solution-intro {
+                grid-template-columns:
+                    1fr 1fr;
+
+                gap: 45px;
+            }
+
+            .visual-box {
+                min-height: 450px;
+            }
+
+            .visual-sun {
+                width: 75px;
+                height: 75px;
+
+                top: 40px;
+                left: 40px;
+
+                font-size: 30px;
+            }
+
+            .panel-graphic {
+                width: 245px;
+                height: 165px;
+            }
+
+            .visual-label {
+                left: 25px;
+                right: 25px;
+                bottom: 25px;
+            }
+
+            .intro-content h2 {
+                font-size: 37px;
+            }
+
+            .intro-content p {
+                font-size: 13px;
+            }
+
+            .solution-checks {
+                gap: 12px;
+            }
+
+
+            /* =========================
+           SOLUTION CARDS
+        ========================= */
+
+            .solution-grid {
+                grid-template-columns:
+                    repeat(2, 1fr);
+
+                gap: 20px;
+            }
+
+            .solution-card {
+                min-height: 270px;
+
+                padding: 28px;
+            }
+
+
+            /* =========================
+           SOLUTION TYPES
+        ========================= */
+
+            .types-grid {
+                grid-template-columns:
+                    repeat(4, 1fr);
+
+                gap: 15px;
+            }
+
+            .type-card {
+                min-height: 235px;
+
+                padding: 25px 20px;
+            }
+
+
+            /* =========================
+           JOURNEY
+        ========================= */
+
+            .journey {
+                grid-template-columns:
+                    1fr 1fr;
+
+                gap: 40px;
+            }
+
+            .journey-content h2 {
+                font-size: 35px;
+            }
+
+            .journey-visual {
+                min-height: 450px;
+            }
+
+            .house {
+                transform:
+                    translate(-50%, -50%) scale(.9);
+            }
+
+
+            /* =========================
+           STATS
+        ========================= */
+
+            .stats {
+                grid-template-columns:
+                    repeat(4, 1fr);
+
+                padding: 20px;
+            }
+
+            .stat {
+                padding: 18px 12px;
+            }
+
+            .stat strong {
+                font-size: 34px;
+            }
+
+
+            /* =========================
+           CTA
+        ========================= */
+
+            .cta {
+                padding: 80px 0;
+            }
+
+            .cta-inner {
+                flex-direction: row;
+
+                align-items: center;
+            }
+
+            .cta h2 {
+                font-size: 35px;
+            }
+
+
+            /* =========================
+           FOOTER
+        ========================= */
+
+            .footer-grid {
+                grid-template-columns:
+                    1.4fr .8fr 1.3fr;
+
+                gap: 40px;
+            }
+
+        }
+
+
+        /* =========================================================
+       TABLET
+       768px - 991px
+    ========================================================= */
+
+        @media (min-width: 768px) and (max-width: 991px) {
+
+            .container {
+                width: 92%;
+                margin: auto;
+            }
+
+
+            /* =========================
+           NAVBAR
+        ========================= */
 
             .topbar {
                 display: none;
@@ -3195,31 +3555,35 @@
             }
 
             .mobile-btn {
-
                 display: grid;
 
                 place-items: center;
 
+                width: 44px;
+                height: 44px;
+
+                border: 0;
+
+                border-radius: 10px;
+
+                background:
+                    var(--light);
+
+                color:
+                    var(--blue);
+
+                cursor: pointer;
             }
 
             .menu {
-
                 position: absolute;
 
                 left: 4%;
-
                 right: 4%;
 
                 top: 80px;
 
-                padding: 20px;
-
-                background: #fff;
-
-                border-radius: 18px;
-
-                box-shadow:
-                    var(--shadow);
+                display: flex;
 
                 flex-direction: column;
 
@@ -3227,9 +3591,24 @@
 
                 gap: 4px;
 
+                padding: 18px;
+
+                background:
+                    var(--white);
+
+                border:
+                    1px solid var(--border);
+
+                border-radius: 18px;
+
+                box-shadow:
+                    var(--shadow);
+
                 opacity: 0;
 
                 visibility: hidden;
+
+                pointer-events: none;
 
                 transform:
                     translateY(-15px);
@@ -3237,193 +3616,959 @@
                 transition:
                     var(--transition);
 
+                z-index: 1000;
             }
 
             .menu.open {
-
                 opacity: 1;
 
                 visibility: visible;
 
+                pointer-events: auto;
+
                 transform:
                     translateY(0);
-
             }
 
             .menu a {
+                width: 100%;
+
                 padding: 13px;
+
+                border-radius: 8px;
+
+                font-size: 13px;
+            }
+
+            .menu a:hover,
+            .menu a.active {
+                background:
+                    var(--light);
+
+                color:
+                    var(--blue);
             }
 
             .nav-contact {
                 justify-content: center;
+
+                margin-top: 5px;
+            }
+
+
+            /* =========================
+           HERO
+        ========================= */
+
+            .page-hero {
+                min-height: 440px;
+            }
+
+            .page-hero-content {
+                max-width: 620px;
+            }
+
+            .page-hero h1 {
+                font-size: 50px;
+            }
+
+            .page-hero p {
+                font-size: 14px;
             }
 
             .hero-orbit {
-                opacity: .2;
                 right: -100px;
+
+                width: 320px;
+                height: 320px;
+
+                opacity: .25;
             }
+
+
+            /* =========================
+           SECTION
+        ========================= */
+
+            .section {
+                padding: 75px 0;
+            }
+
+            .section-heading {
+                margin-bottom: 45px;
+            }
+
+            .section-heading h2 {
+                font-size: 35px;
+            }
+
+
+            /* =========================
+           SOLUTION INTRO
+        ========================= */
 
             .solution-intro {
-
-                grid-template-columns:
-                    1fr;
-
-            }
-
-            .solution-grid {
-
-                grid-template-columns:
-                    1fr;
-
-            }
-
-            .journey {
-
-                grid-template-columns:
-                    1fr;
-
-            }
-
-            .journey-content {
-                order: -1;
-            }
-
-            .stats {
-
                 grid-template-columns:
                     1fr 1fr;
 
+                gap: 30px;
+            }
+
+            .visual-box {
+                min-height: 410px;
+
+                border-radius: 24px;
+            }
+
+            .visual-sun {
+                width: 68px;
+                height: 68px;
+
+                top: 35px;
+                left: 30px;
+
+                font-size: 27px;
+            }
+
+            .panel-graphic {
+                width: 210px;
+                height: 140px;
+            }
+
+            .energy-line {
+                width: 150px;
+                height: 150px;
+            }
+
+            .visual-label {
+                left: 20px;
+                right: 20px;
+
+                bottom: 20px;
+
+                padding: 14px 15px;
+            }
+
+            .visual-label strong {
+                font-size: 14px;
+            }
+
+            .visual-label span {
+                font-size: 10px;
+
+                line-height: 1.5;
+            }
+
+            .intro-content h2 {
+                font-size: 31px;
+            }
+
+            .intro-content p {
+                font-size: 13px;
+
+                line-height: 1.75;
+            }
+
+            .solution-checks {
+                grid-template-columns:
+                    1fr;
+
+                gap: 11px;
+
+                margin: 22px 0;
+            }
+
+            .check {
+                font-size: 12px;
+            }
+
+
+            /* =========================
+           SOLUTION CARDS
+        ========================= */
+
+            .solution-grid {
+                grid-template-columns:
+                    repeat(2, 1fr);
+
+                gap: 20px;
+            }
+
+            .solution-card {
+                min-height: 260px;
+
+                padding: 25px;
+            }
+
+            .solution-icon {
+                width: 58px;
+                height: 58px;
+
+                margin-bottom: 18px;
+            }
+
+            .solution-card h3 {
+                font-size: 18px;
+            }
+
+
+            /* =========================
+           SOLUTION TYPES
+        ========================= */
+
+            .types-grid {
+                grid-template-columns:
+                    repeat(2, 1fr);
+
+                gap: 18px;
+            }
+
+            .type-card {
+                min-height: 230px;
+
+                padding: 25px;
+            }
+
+
+            /* =========================
+           JOURNEY
+        ========================= */
+
+            .journey {
+                grid-template-columns:
+                    1fr 1fr;
+
+                gap: 30px;
+            }
+
+            .journey-content h2 {
+                font-size: 32px;
+            }
+
+            .journey-content p {
+                font-size: 13px;
+            }
+
+            .journey-visual {
+                min-height: 420px;
+            }
+
+            .house {
+                transform:
+                    translate(-50%, -50%) scale(.78);
+            }
+
+
+            /* =========================
+           STATS
+        ========================= */
+
+            .stats {
+                grid-template-columns:
+                    repeat(2, 1fr);
+
+                padding: 20px;
+            }
+
+            .stat {
+                padding: 20px 10px;
+            }
+
+            .stat strong {
+                font-size: 30px;
+            }
+
+            .stat span {
+                font-size: 11px;
             }
 
             .stat:nth-child(2)::after {
                 display: none;
             }
 
-            .cta-inner {
+            .stat:nth-child(1)::before,
+            .stat:nth-child(2)::before {
+                content: "";
 
+                position: absolute;
+
+                left: 10%;
+                right: 10%;
+
+                bottom: 0;
+
+                height: 1px;
+
+                background:
+                    var(--border);
+            }
+
+
+            /* =========================
+           CTA
+        ========================= */
+
+            .cta {
+                padding: 70px 0;
+            }
+
+            .cta-inner {
                 flex-direction: column;
 
                 align-items: flex-start;
 
+                gap: 25px;
             }
 
-            .footer-grid {
+            .cta h2 {
+                font-size: 33px;
+            }
 
+            .cta p {
+                font-size: 13px;
+            }
+
+
+            /* =========================
+           FOOTER
+        ========================= */
+
+            .footer-grid {
                 grid-template-columns:
                     1fr 1fr;
 
+                gap: 35px;
+            }
+
+            .footer-about {
+                grid-column:
+                    1 / -1;
             }
 
         }
 
 
-        @media(max-width:550px) {
+        /* =========================================================
+       MOBILE
+       767px AND BELOW
+    ========================================================= */
+
+        @media (max-width: 767px) {
 
             .container {
-                width: 90%;
+                width: 92%;
+                margin: auto;
             }
 
-            .brand-text strong {
-                font-size: 16px;
+
+            /* =========================
+           NAVBAR
+        ========================= */
+
+            .topbar {
+                display: none;
             }
 
-            .brand-text span {
-                font-size: 8px;
+            .navbar {
+                height: 68px;
             }
+
+            .mobile-btn {
+                display: grid;
+
+                place-items: center;
+
+                width: 43px;
+                height: 43px;
+
+                border: 0;
+
+                border-radius: 10px;
+
+                background:
+                    var(--light);
+
+                color:
+                    var(--blue);
+
+                font-size: 18px;
+
+                cursor: pointer;
+            }
+
+            .menu {
+                position: absolute;
+
+                left: 3%;
+                right: 3%;
+
+                top: 75px;
+
+                display: flex;
+
+                flex-direction: column;
+
+                align-items: stretch;
+
+                gap: 4px;
+
+                padding: 15px;
+
+                background:
+                    rgba(255, 255, 255, .98);
+
+                border:
+                    1px solid var(--border);
+
+                border-radius: 16px;
+
+                box-shadow:
+                    var(--shadow);
+
+                opacity: 0;
+
+                visibility: hidden;
+
+                pointer-events: none;
+
+                transform:
+                    translateY(-15px);
+
+                transition:
+                    var(--transition);
+
+                z-index: 1000;
+            }
+
+            .menu.open {
+                opacity: 1;
+
+                visibility: visible;
+
+                pointer-events: auto;
+
+                transform:
+                    translateY(0);
+            }
+
+            .menu a {
+                width: 100%;
+
+                padding: 12px;
+
+                border-radius: 8px;
+
+                font-size: 13px;
+            }
+
+            .menu a:hover,
+            .menu a.active {
+                background:
+                    var(--light);
+
+                color:
+                    var(--blue);
+            }
+
+            .menu a::after {
+                display: none;
+            }
+
+            .nav-contact {
+                justify-content: center;
+
+                margin-top: 5px;
+            }
+
+
+            /* =========================
+           HERO
+        ========================= */
 
             .page-hero {
-                min-height: 410px;
+                min-height: 400px;
+            }
+
+            .page-hero-content {
+                width: 100%;
+
+                max-width: 100%;
+            }
+
+            .breadcrumb {
+                margin-bottom: 15px;
+
+                font-size: 11px;
             }
 
             .page-hero h1 {
-                font-size: 43px;
+                font-size: 42px;
+
+                letter-spacing: -1px;
+            }
+
+            .page-hero p {
+                margin-top: 18px;
+
+                font-size: 14px;
+
+                line-height: 1.7;
             }
 
             .hero-orbit {
                 display: none;
             }
 
+            .particle {
+                width: 4px;
+                height: 4px;
+            }
+
+
+            /* =========================
+           SECTION
+        ========================= */
+
             .section {
                 padding: 70px 0;
             }
 
-            .section-heading h2 {
-                font-size: 34px;
+            .section-heading {
+                margin-bottom: 40px;
             }
 
-            .intro-content h2 {
-                font-size: 34px;
+            .eyebrow {
+                font-size: 10px;
+
+                letter-spacing: 1.5px;
+                margin-left: 60px;
+            }
+
+            .section-heading h2 {
+                font-size: 32px;
+
+                line-height: 1.15;
+            }
+
+            .section-heading p {
+                font-size: 13px;
+
+                line-height: 1.7;
+            }
+
+
+            /* =========================
+           SOLUTION INTRO
+        ========================= */
+
+            .solution-intro {
+                display: grid;
+
+                grid-template-columns:
+                    1fr;
+
+                gap: 35px;
+            }
+
+            .intro-visual {
+                order: 1;
+            }
+
+            .intro-content {
+                order: 2;
             }
 
             .visual-box {
-                min-height: 390px;
+                min-height: 360px;
+
+                border-radius: 20px;
+            }
+
+            .visual-box::before {
+                width: 300px;
+                height: 300px;
+
+                top: -130px;
+                right: -130px;
+            }
+
+            .visual-box::after {
+                width: 220px;
+                height: 220px;
+
+                bottom: -100px;
+                left: -80px;
+            }
+
+            .visual-sun {
+                top: 30px;
+                left: 25px;
+
+                width: 62px;
+                height: 62px;
+
+                font-size: 24px;
             }
 
             .panel-graphic {
-                width: 220px;
+                width: 210px;
+                height: 140px;
+
+                top: 48%;
+            }
+
+            .energy-line {
+                width: 145px;
                 height: 145px;
+            }
+
+            .visual-label {
+                left: 15px;
+                right: 15px;
+
+                bottom: 15px;
+
+                padding: 13px 14px;
+
+                border-radius: 12px;
+            }
+
+            .visual-label strong {
+                font-size: 13px;
+            }
+
+            .visual-label span {
+                display: block;
+
+                font-size: 10px;
+
+                line-height: 1.5;
+            }
+
+            .intro-content h2 {
+                font-size: 32px;
+
+                line-height: 1.15;
+
+                margin:
+                    12px 0 18px;
+            }
+
+            .intro-content p {
+                font-size: 14px;
+
+                line-height: 1.8;
+
+                text-align: justify;
             }
 
             .solution-checks {
                 grid-template-columns:
                     1fr;
+
+                gap: 12px;
+
+                margin: 23px 0 28px;
             }
+
+            .check {
+                font-size: 13px;
+            }
+
+            .check i {
+                font-size: 16px;
+            }
+
+
+            /* =========================
+           SOLUTION CARDS
+        ========================= */
+
+            .solution-grid {
+                grid-template-columns:
+                    1fr;
+
+                gap: 20px;
+            }
+
+            .solution-card {
+                min-height: auto;
+
+                padding: 25px;
+
+                border-radius: 18px;
+            }
+
+            .solution-icon {
+                width: 58px;
+                height: 58px;
+
+                font-size: 22px;
+
+                margin-bottom: 18px;
+            }
+
+            .solution-card h3 {
+                font-size: 18px;
+            }
+
+            .solution-card p {
+                font-size: 12px;
+
+                line-height: 1.7;
+            }
+
+
+            /* =========================
+           SOLUTION TYPES
+        ========================= */
 
             .types-grid {
                 grid-template-columns:
                     1fr;
+
+                gap: 18px;
+            }
+
+            .type-card {
+                min-height: 220px;
+
+                padding: 25px 22px;
+
+                border-radius: 18px;
+            }
+
+            .type-icon {
+                width: 52px;
+                height: 52px;
+
+                margin-bottom: 20px;
+            }
+
+
+            /* =========================
+           JOURNEY
+        ========================= */
+
+            .journey {
+                grid-template-columns:
+                    1fr;
+
+                gap: 35px;
+            }
+
+            .journey-content {
+                order: 1;
             }
 
             .journey-visual {
-                min-height: 400px;
+                order: 2;
+
+                min-height: 380px;
+
+                border-radius: 20px;
+            }
+
+            .journey-content h2 {
+                font-size: 32px;
+            }
+
+            .journey-content p {
+                font-size: 13px;
+
+                line-height: 1.75;
+            }
+
+            .journey-list {
+                margin-top: 24px;
+            }
+
+            .journey-item {
+                gap: 13px;
+
+                padding-bottom: 22px;
+            }
+
+            .journey-number {
+                width: 38px;
+                height: 38px;
+            }
+
+            .journey-item:not(:last-child)::before {
+                left: 18px;
+
+                top: 40px;
+            }
+
+            .journey-item h3 {
+                font-size: 15px;
+            }
+
+            .journey-item p {
+                font-size: 11px;
             }
 
             .house {
                 transform:
-                    translate(-50%, -50%) scale(.8);
+                    translate(-50%, -50%) scale(.72);
+            }
+
+            .wave-one {
+                left: 30px;
+            }
+
+            .wave-two {
+                right: 30px;
+            }
+
+
+            /* =========================
+           STATS
+        ========================= */
+
+            .stats-section {
+                padding: 60px 0;
             }
 
             .stats {
-                padding: 10px;
+                grid-template-columns:
+                    repeat(2, 1fr);
+
+                padding: 12px;
+
+                border-radius: 18px;
             }
 
             .stat {
-                padding: 15px 5px;
+                padding: 18px 6px;
+            }
+
+            .stat i {
+                font-size: 19px;
+
+                margin-bottom: 8px;
             }
 
             .stat strong {
                 font-size: 28px;
             }
 
+            .stat span {
+                font-size: 10px;
+
+                line-height: 1.4;
+            }
+
+            .stat:nth-child(2)::after {
+                display: none;
+            }
+
+            .stat:nth-child(1)::before,
+            .stat:nth-child(2)::before {
+                content: "";
+
+                position: absolute;
+
+                left: 10%;
+                right: 10%;
+
+                bottom: 0;
+
+                height: 1px;
+
+                background:
+                    var(--border);
+            }
+
+
+            /* =========================
+           CTA
+        ========================= */
+
+            .cta {
+                padding: 65px 0;
+            }
+
+            .cta-inner {
+                flex-direction: column;
+
+                align-items: flex-start;
+
+                gap: 25px;
+            }
+
             .cta h2 {
                 font-size: 31px;
+
+                line-height: 1.15;
+            }
+
+            .cta p {
+                font-size: 13px;
+
+                line-height: 1.7;
             }
 
             .cta-buttons {
                 width: 100%;
+
+                display: flex;
+
                 flex-direction: column;
+
+                gap: 10px;
             }
 
             .btn {
                 width: 100%;
+
+                justify-content: center;
+
+                padding: 14px 18px;
+
+                font-size: 12px;
             }
+
+
+            /* =========================
+           FOOTER
+        ========================= */
 
             .footer-grid {
                 grid-template-columns:
                     1fr;
+
+                gap: 30px;
             }
+
+
+            /* =========================
+           FLOATING BUTTONS
+        ========================= */
 
             .whatsapp {
                 right: 18px;
+
                 bottom: 18px;
+
+                width: 52px;
+                height: 52px;
+
+                font-size: 23px;
             }
 
             .scroll-top {
                 right: 18px;
-                bottom: 88px;
+
+                bottom: 82px;
+
+                width: 40px;
+                height: 40px;
             }
 
         }
     </style>
+
+
 
 @endsection

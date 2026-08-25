@@ -908,7 +908,7 @@
 
         /* SECTION */
         .section {
-            padding: 100px 0;
+            padding: 30px 0;
         }
 
         .section-light {
@@ -1598,7 +1598,7 @@
             }
 
             .image-label {
-                left: 12px;
+                 display: none !important;
             }
 
             .difference-content h2 {

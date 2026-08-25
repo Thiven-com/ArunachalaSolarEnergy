@@ -337,7 +337,7 @@
                MESSAGE
             ========================================= */
 
-        .message-box {
+        /* .message-box {
             width: 100%;
             max-width: 100%;
 
@@ -358,7 +358,7 @@
             white-space: nowrap;
             overflow: hidden;
             text-overflow: ellipsis;
-        }
+        } */
 
 
         /* =========================================
@@ -761,7 +761,7 @@
             <div class="page-header-modern">
                 <h3>Contact Enquiries</h3>
                 <p class="mb-0">
-                    Manage website manpower enquiries
+                    Manage website Arunachala Solar enquiries
                 </p>
             </div>
 

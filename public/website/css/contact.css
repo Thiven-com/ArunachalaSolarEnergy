@@ -53,7 +53,7 @@
     gap: 65px
 }
 
-.eyebrow {
+/* .eyebrow {
     display: inline-flex;
     align-items: center;
     gap: 8px;
@@ -62,7 +62,7 @@
     font-weight: 800;
     letter-spacing: 2px;
     text-transform: uppercase
-}
+} */
 
 .eyebrow:before,
 .eyebrow:after {

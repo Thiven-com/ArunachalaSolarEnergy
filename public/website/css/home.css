@@ -670,8 +670,8 @@
 }
 
 .eyebrow {
-    display:
-        inline-flex;
+    /* display:
+        inline-flex; */
 
     align-items:
         center;
@@ -873,6 +873,8 @@
 
     margin-bottom:
         28px;
+
+    text-align: center;
 }
 
 .about-points {
@@ -1696,6 +1698,11 @@
 
     .about-content h2 {
         font-size: 34px;
+        text-align: center;
+    }
+
+    .about-content .eyebrow {
+        text-align: center;
     }
 
     .about-points {
@@ -1704,7 +1711,7 @@
 
     .experience-card {
         left: 15px;
-        bottom: 20px;
+        bottom: 150px;
     }
 
     .about-image-main img {
@@ -1731,6 +1738,14 @@
 
     .cta-content h2 {
         font-size: 32px;
+        text-align: center;
+    }
+    .cta-content p{
+        text-align: center;
+    }
+
+    .eyebrow {
+        text-align: center;
     }
 
     .cta-buttons {
