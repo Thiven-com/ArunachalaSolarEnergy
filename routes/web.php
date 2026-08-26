@@ -1,5 +1,5 @@
 <?php
-
+use App\Http\Controllers\SitemapController;
 use App\Http\Controllers\PageController;
 use Illuminate\Support\Facades\Route;
 
@@ -15,6 +15,9 @@ Route::get('contact', [PageController::class, 'contact'])->name('contact');
 Route::post('/contact', [PageController::class, 'submitContactEnquiry'])->name('contact.store');
 
 
+
+Route::get('/sitemap.xml', [SitemapController::class, 'index'])
+    ->name('sitemap');
 
 
 

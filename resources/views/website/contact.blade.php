@@ -238,11 +238,11 @@
 
                 <div class="solar-socials">
 
-                    <a href="#" aria-label="Facebook">
+                    <!-- <a href="#" aria-label="Facebook">
                         <i class="fa-brands fa-facebook-f"></i>
-                    </a>
+                    </a> -->
 
-                    <a href="mailto:arunachalasolarenergy@gmail.com" aria-label="Email">
+                    <a href="mailto:sureshmannuri@gmail.com" aria-label="Email">
                         <i class="fa-solid fa-envelope"></i>
                     </a>
 
